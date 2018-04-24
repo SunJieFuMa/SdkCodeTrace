@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="white_gray">#EEEEEE</color>
+    <color name="red">#ff00</color>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pay Demo</string>
+    <string name="goods_name">Nike</string>
+    <string name="please_input_price">Please enter the amount you need to change</string>
+    <string name="confirm">Confirm</string>
+    <string name="data_cannot_empty">Data cannot be empty</string>
+    <string name="data_format_error">Data formatting error</string>
+    <string name="invalid_token">Invalid token</string>
+    <string name="return_error_data">Return error data</string>
+    <string name="server_connection_exception">Server connection exception</string>
+    <string name="init_tips">Init...</string>
+    <string name="pay_info">Get pay info...</string>
+    <string name="get_pay_method_failed">Get pay method failed!</string>
+    <string name="get_token_failed">Get token failed!</string>
+    <string name="data_exception">Data exception</string>
+    <string name="encrypt_exception">Encrypt exception</string>
+    <string name="decrypt_exception">Decrypt exception</string>
+    <string name="kindly_remind">Kindly remind</string>
+    <string name="customer_phone_title">Pay questions, please contact:</string>
+    <string name="customer_qq_title">Service QQ:</string>
+    <string name="action_cancel">Cancel payment</string>
+    <string name="get_pay_status_failed">Get pay status failed!</string>
+    <string name="pay_success">Pay Success</string>
+    <string name="pay_failure">Pay Failure</string>
+    <string name="get_servers_failure">Get Servers Failure!</string>
+    <string name="net_work_not_available">NetWork Not Available!</string>
+    <string name="wechat_not_available">WeChat Not Available</string>
+    <string name="alipay_not_available">Alipay Not Available</string>
+    <string name="step_pay_failure">Step Pay Failure</string>
+    <string name="get_pay_param_failed">Get Pay Param Failed</string>
+    <string name="pay_error">Pay Error</string>
+    <string name="init_params_error">Init params error</string>
+    <string name="pay_actionbar_name">Pay step by step</string>
+    <string name="merchants_configuration_errors">merchants configuration errors</string>
+    <string name="gain_merchants_configuration_errors">gain merchants configuration errors</string>
+</resources>

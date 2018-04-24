@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <!--android 7.0 add FileProvider-->
+    <external-path
+        name="external_files"
+        path=""/>
+
+    <external-path
+        name="files_root"
+        path="Android/data/com.pay.sdk/download/"/>
+</paths>

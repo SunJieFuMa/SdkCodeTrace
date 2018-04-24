@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDK Demo</string>
+    <string name="goods_name">耐克</string>
+    <string name="please_input_price">请输入需要更改的金额</string>
+    <string name="confirm">确定</string>
+    <string name="data_cannot_empty">数据不能为空</string>
+    <string name="data_format_error">数据格式错误</string>
+    <string name="invalid_token">无效的记号</string>
+    <string name="return_error_data">返回数据错误</string>
+    <string name="server_connection_exception">服务器连接异常</string>
+    <string name="init_tips">初始化...</string>
+    <string name="pay_info">获取支付信息...</string>
+    <string name="get_pay_method_failed">获取支付方式失败!</string>
+    <string name="get_token_failed">获取token失败</string>
+    <string name="data_exception">数据异常</string>
+    <string name="encrypt_exception">加密异常</string>
+    <string name="decrypt_exception">解密异常</string>
+    <string name="kindly_remind">温馨提示</string>
+    <string name="customer_phone_title">充值问题，请联系:</string>
+    <string name="customer_qq_title">客服QQ:</string>
+    <string name="action_cancel">你取消了支付</string>
+    <string name="get_pay_status_failed">获取支付状态失败</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_failure">支付失败</string>
+    <string name="get_servers_failure">获取API失败</string>
+    <string name="net_work_not_available">网络不可用</string>
+    <string name="wechat_not_available">未安装微信</string>
+    <string name="alipay_not_available">未安装支付宝</string>
+    <string name="step_pay_failure">拉起支付失败</string>
+    <string name="get_pay_param_failed">获取支付参数失败</string>
+    <string name="pay_error">支付异常</string>
+    <string name="init_params_error">初始化配置参数出现问题</string>
+    <string name="pay_actionbar_name">分步支付</string>
+    <string name="merchants_configuration_errors">商户配置错误</string>
+    <string name="gain_merchants_configuration_errors">获取商户配置错误</string>
+</resources>
