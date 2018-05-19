@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+      <EditText
+          android:id="@+id/tv_show"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:hint="显示位置"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="订单号"
+            />
+        <EditText
+            android:id="@+id/edt_orderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="orderId"
+            android:text="1035149011344822515219"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="商户号:"
+            />
+        <EditText
+            android:id="@+id/edt_merchant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="merchant"
+            android:text="22294531"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="appkey:"
+            />
+        <EditText
+            android:id="@+id/edt_appKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="appKey"
+            android:text="7ad8a3d997994f6c26efee6cb2d27cdb"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="验签 "
+            />
+        <EditText
+            android:id="@+id/edt_signData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="signData"
+            android:text="5f88c3e61db3365c086b03a5e26a9877"
+            />
+
+      </LinearLayout>
+
+
+      <Button
+          android:id="@+id/btn_send"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="send"
+          />
+
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>
