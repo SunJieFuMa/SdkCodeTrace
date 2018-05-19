@@ -11,6 +11,7 @@ import android.text.Editable;
 import android.text.InputType;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -76,7 +77,9 @@ public class ProductActivity extends Activity {
                 payParameter.setPayParameterListener(new PayParameter.PayParametercCllback() {
                     @Override
                     public void payParameter(final TokenParam tokenParam) {
-                        PayActivity.startActivity(ProductActivity.this, tokenParam);
+                        Log.e("ProductActivity", "79-----payParameter--->" + tokenParam);
+//                        PayActivity.startActivity(ProductActivity.this, tokenParam);
+                        WapPayActivity.startActivity(ProductActivity.this, tokenParam);
                         dismiss();
                     }
 
@@ -194,7 +197,6 @@ public class ProductActivity extends Activity {
                     showToast(getString(R.string.pay_failure));
                 }
             }
-
         }
     }
 }
